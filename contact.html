@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Reach us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        <p>Personalized fitness. Real results.</p>
+    </div>
+
+    <div class="navbar">
+        <div class="navigationbar">
+            <div class="logo">
+                <a href="frofit.html">FroFit<small>Fit to Win</small></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="frofit.html">Home</a></li>
+                <li><a href="subscriptionplans.html">Subscription Plans</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="subscriptionplans.html" class="cta-btn">Join Now</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1 style="text-align: center;">Reach us</h1>
+
+        <div class="contactgrid">
+            <div class="contactcard">
+                <h3>Get in touch</h3>
+                <ul>
+                    <li><a href="mailto:mihneafronie@gmail.com">Email us</a></li>
+                    <li><a href="tel:+31611700493">Call us</a></li>
+                    <li><a href="https://www.instagram.com/frofitapp/" target="_blank">Check our Instagram page</a></li>
+                </ul>
+            </div>
+
+            <div class="contactform">
+                <h2>Fill in the contact form and our team will assist you in less than 24h!</h2>
+
+                <form action="index.php" method="post">
+
+                    <div class="formrow">
+                        <label for="title">Title:</label>
+                        <div class="radiogroup">
+                            <label><input type="radio" id="title-mr" name="title" value="Mr."> Mr.</label>
+                            <label><input type="radio" id="title-ms" name="title" value="Ms."> Ms.</label>
+                            <label><input type="radio" id="title-phd" name="title" value="PhD."> PhD.</label>
+                        </div>
+                    </div>
+
+                    <div class="formrow">
+                        <label for="FirstName">First name:</label>
+                        <input type="text" id="FirstName" placeholder="First Name" minlength="2" maxlength="100"
+                            required>
+                    </div>
+
+                    <div class="formrow">
+                        <label for="LastName">Last name:</label>
+                        <input type="text" id="LastName" placeholder="Last Name" minlength="2" maxlength="100" required>
+                    </div>
+
+                    <div class="formrow">
+                        <label for="email">E-mail address:</label>
+                        <input type="text" id="email" placeholder="e-mail address" minlength="2" maxlength="100"
+                            required>
+                    </div>
+
+                    <div class="formrow">
+                        <label for="phone">Phone #:</label>
+                        <input type="tel" id="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
+
+                    <input type="submit" class="submitbtn" value="Send">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
